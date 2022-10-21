@@ -1,0 +1,19 @@
+Package: FRP
+Type: Package
+Title: Fertilizer Recommendation Package
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Gerard", family = "Ros", email = "gerard.ros@nmi-agro.nl", role = c("aut","cre")),
+    person(given = "Mae", family = "Glaese", email = "mae.glaese@wur.nl", role = c("aut")))
+Description: This package gives optimum agronomic nutrient requirements given soil properties and land use.
+Depends:
+    R (>= 3.5.0)
+Imports: 
+    checkmate,
+    data.table
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0),
+RoxygenNote: 7.1.2
