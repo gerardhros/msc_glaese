@@ -14,10 +14,10 @@
 rfp_p_gld <- function(B_LU_CAT,B_SOILTYPE_USDA,A_P_AL,A_P_CC){
   
   # add visible bindings 
-  
+  id = NULL
   
   # number of soils for wich a recommendation is asked
-  arg.length <- max(length(B_LU_BRP), length(B_SOILTYPE_USDA), length(A_P_AL),length(A_P_CC))
+  arg.length <- max(length(B_LU_CAT), length(B_SOILTYPE_USDA), length(A_P_AL),length(A_P_CC))
   
   # make local copy of function input into data.table
   dt <- data.table(id = 1:arg.length,
